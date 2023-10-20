@@ -8,9 +8,9 @@ website:
     left:
       - href: index.qmd
         text: Gallery
-      - href: index.qmd
-        text: Student
-      - about.qmd
+      - href: pets/index.qmd
+        text: View
+
 
 format:
   html:

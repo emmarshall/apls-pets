@@ -5,16 +5,13 @@ description: |
 listing:
   contents: 
     - "posts/**/*.qmd"
-  type: grid
+  type: default
   categories: false
   sort: "priority"
   filter-ui: true
   fields: [title, human, image]
   field-display-names: 
     human: "Submitted by"
-  grid-columns: 2
-  image-height: 33vmin
-page-layout: full
 ---
 
 ![](../pets-banner.png){fig-align="center"}
