@@ -1,19 +1,23 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "pets"
+  title: "AP-LS Pet Blog"
   navbar:
     left:
       - href: index.qmd
-        text: Home
+        text: Gallery
+      - href: index.qmd
+        text: Student
       - about.qmd
 
 format:
   html:
-    theme: cosmo
+    theme: sketchy
     css: styles.css
     toc: true
 
-
+execute:
+    freeze: auto
 
