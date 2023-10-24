@@ -4,17 +4,43 @@ project:
 
 website:
   title: "AP-LS Pet Blog"
+  favicon: "assets/favicon_io/favicon.ico"
+  search: false
+  
   navbar:
-    left:
-      - href: index.qmd
+    logo: assets/logo-light.png
+    left: 
+      - href: https://ap-ls.org
+      - text: Back to ap-ls.org
+    right:
+      - href: gallery.qmd
         text: Gallery
       - href: pets/index.qmd
-        text: View
+        text: Blog
+
+  page-footer:
+    left: |
+      Copyright &copy; 2023 [American Psychology-Law Society](https://apls.memberclicks.net/)
+    center: |
+       [Report an issue](https://docs.google.com/forms/d/e/1FAIpQLSfOL2JsE-YbvqH09-S6zcukZ6qiOycK98DjXa08MDygMTWBYA/viewform?usp=sf_link)
+    right:
+      - icon: twitter
+        aria-label: Link to Twitter
+        href: https://twitter.com/apls41
+      - icon: facebook
+        aria-label: Link to Facebook
+        href: https://www.facebook.com/APLS41 
+      - icon: instagram
+        aria-label: Link to Instagram
+        href: https://www.instagram.com/apls41/
+      - icon: youtube
+        aria-label: youtube
+        href: https://www.youtube.com/channel/UCHCZlqNOXNDDUPnMzBqTmQA
 
 
 format:
   html:
-    theme: sketchy
+    theme: [sketchy, "light-theme.scss"]
     css: styles.css
     toc: true
 

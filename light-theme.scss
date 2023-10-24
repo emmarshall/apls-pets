@@ -1,0 +1,145 @@
+/* scss:defaults */
+$card-bg-color: #fff;
+$card-border-color: #000;
+$btn-shadow: 5px 5px 0px 0px #000;
+$btn-padding: 0.5rem 1rem;
+$transition-time: 150ms;
+$card-width: 15rem;
+$card-padding: 2em;
+$avatar-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+$avatar-border-color: #000;
+$box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+
+/*-- scss:rules --*/
+
+// button card
+
+.card-container {
+  margin: 100px auto;
+  max-width: 600px;
+}
+
+.button-card {
+  background: $card-bg-color;
+  border-radius: 20px;
+  font-size: clamp(0.5rem, 0.6rem + 0.8vw, 1.25rem);
+  filter: drop-shadow(8px 8px 0px $card-border-color);
+  padding: $card-padding;
+  border: 4px solid $card-border-color;
+  
+  .header {
+    display: flex;
+    align-items: center;
+    background: hsla(185, 100%, 50%, 1);
+    border-radius: 1rem 1rem 0 0;
+    padding: 1rem;
+    font-size: clamp(0.6rem, 0.7rem + 1vw, 1.5rem);
+    font-weight: bold;
+    position: relative;
+
+    .header-left {
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      transition: transform 200ms linear;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+   @media screen and (min-width: 368px) {
+        max-width: 12rem;
+        top: -3.5rem;
+        right: 1rem;
+      }
+    }
+  .button-card-image {
+    max-width: 100%;
+    max-height: 30%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+  }
+
+  .content {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.btn-container {
+  text-align: left;
+  display: inline-block;
+}
+
+button {
+  margin: 0 5px;
+  background: $card-bg-color;
+  font-size: 18px;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 3px solid $card-border-color;
+  box-shadow: $btn-shadow;
+  cursor: pointer;
+
+  &.primary {
+    background: $primary;
+    color: $card-bg-color;
+  }
+  
+  &.secondary {
+    background: $secondary;
+    color: $card-bg-color;
+  }
+  
+  &.bright {
+    background: $yellow;
+    color: $dark;
+  }
+
+  &:active {
+    transform: translateY(4px);
+    box-shadow: 1px 2px 0px 0px $card-border-color;
+  }
+}
+
+
+.neo-btn {
+  margin: 0 5px;
+  background: $card-bg-color;
+  font-size: 1.1rem;
+  padding: 10px 15px;
+  border-radius: 6px;
+  border: 3px solid $card-border-color;
+  box-shadow: $btn-shadow;
+  font-variant: small-caps;
+  cursor: pointer;
+
+  &.dark {
+    background: $secondary;
+    color: $card-bg-color;
+  }
+  
+  &.pink {
+    background: $primary;
+    color: $yellow;
+  }
+  
+  &.yellow {
+    background: $yellow;
+    color: $dark;
+  }
+  
+   &.blue {
+    background: $cyan;
+    color: $dark;
+  }
+
+  &:active {
+    transform: translateY(4px);
+    box-shadow: 1px 2px 0px 0px $card-border-color;
+  }
+}
