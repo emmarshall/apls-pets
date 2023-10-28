@@ -1,0 +1,61 @@
+---
+title: Everything Bagel Seasoning (Bagel for short)
+human: Alexandra Zidenberg, PhD. King's University College at Western University 
+description: |
+  Everything Bagel Seasoning (Bagel for short) joined the family in 2022. He has a seasoning name to match with his older sister, Ginger. Bagel is a very mischievous kitty who always eats like he's never been fed before. He can often be found sleeping on my lap or annoying his senior cat sister.  
+quote: "Hey, is that food for me?"
+image: featured.jpeg
+categories: Sphynx 
+age: 1 
+talent: Bagel always knows precisely when it is 5am and will wake me up for food like clockwork 
+habit: Bagel will steal his sister's food (even if his own bowl is full) 
+title-block-categories: false
+title-block-banner: false
+title-block-style: none
+---
+
+::: grid
+::: {#about-pet-text .g-col-12 .g-col-md-6}
+![](featured.jpeg)
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {simple-info}
+### Quote:
+
+> {{< meta quote >}}
+
+### Breed:
+
+{{< meta categories >}}
+
+### Bad Habit:
+
+{{< meta habit >}}
+
+### Special Talent:
+
+{{< meta talent >}}
+:::
+:::
+:::
+
+##### Submitted by: {{< meta human >}}
+
+## Bio
+
+{{< meta description >}}
+
+## Gallery
+
+```{r}
+#| label: gallery of pets
+#| echo: false
+
+library(pixture)
+paths <- c(
+  "https://emmarshall.github.io/runza/img/apls-pets/Alexandra Zidenberg-1.jpg",
+  "https://emmarshall.github.io/runza/img/apls-pets/Alexandra Zidenberg-2.jpg") 
+pixgallery(paths, dim="300px", shuffle=TRUE)
+
+```

@@ -1,0 +1,18 @@
+{
+  "hash": "188d95542e401972319233aab8bccff3",
+  "result": {
+    "markdown": "---\ntitle: Everything Bagel Seasoning (Bagel for short)\nhuman: Alexandra Zidenberg, PhD. King's University College at Western University \ndescription: |\n  Everything Bagel Seasoning (Bagel for short) joined the family in 2022. He has a seasoning name to match with his older sister, Ginger. Bagel is a very mischievous kitty who always eats like he's never been fed before. He can often be found sleeping on my lap or annoying his senior cat sister.  \nquote: \"Hey, is that food for me?\"\nimage: featured.jpeg\ncategories: Sphynx \nage: 1 \ntalent: Bagel always knows precisely when it is 5am and will wake me up for food like clockwork \nhabit: Bagel will steal his sister's food (even if his own bowl is full) \ntitle-block-categories: false\ntitle-block-banner: false\ntitle-block-style: none\n---\n\n\n::: grid\n::: {#about-pet-text .g-col-12 .g-col-md-6}\n![](featured.jpeg)\n:::\n\n::: {.g-col-12 .g-col-md-6}\n::: {simple-info}\n### Quote:\n\n> {{< meta quote >}}\n\n### Breed:\n\n\n{{< meta categories >}}\n\n\n\n### Bad Habit:\n\n\n{{< meta habit >}}\n\n\n\n### Special Talent:\n\n\n{{< meta talent >}}\n\n\n:::\n:::\n:::\n\n##### Submitted by: {{< meta human >}}\n\n## Bio\n\n\n{{< meta description >}}\n\n\n\n## Gallery\n\n\n::: {.cell}\n::: {.cell-output-display}\n```{=html}\n<div id=\"htmlwidget-e920f947d2f775329fda\" style=\"width:100%;height:100%;\" class=\"pixgallery html-widget \"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-e920f947d2f775329fda\">{\"x\":{\"path\":[\"https://emmarshall.github.io/runza/img/apls-pets/Alexandra Zidenberg-1.jpg\",\"https://emmarshall.github.io/runza/img/apls-pets/Alexandra Zidenberg-2.jpg\"],\"caption\":[],\"dim\":\"300px\",\"gap\":\"6px\",\"shuffle\":true,\"type\":\"grid\"},\"evals\":[],\"jsHooks\":[]}</script>\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"../../../site_libs/htmlwidgets-1.6.2/htmlwidgets.js\"></script>\n<link href=\"../../../site_libs/simplelightbox-0/css/simplelightbox.css\" rel=\"stylesheet\" />\n<script src=\"../../../site_libs/simplelightbox-0/js/simplelightbox.js\"></script>\n<link href=\"../../../site_libs/pixgallery-0/css/pixgallery.css\" rel=\"stylesheet\" />\n<script src=\"../../../site_libs/pixgallery-binding-0.0.2.3000/pixgallery.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -3,7 +3,7 @@ pagetitle: blog
 listing:
   contents: 
     - "posts/**/*.qmd"
-  type: default
+  type: grid
   categories: false
   filter-ui: true
   fields: [title, human, image]

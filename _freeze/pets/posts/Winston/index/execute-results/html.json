@@ -1,0 +1,18 @@
+{
+  "hash": "df5d8a881609d721c93f192a26aa4093",
+  "result": {
+    "markdown": "---\ntitle: Winston\nhuman: Grace Hanzelin, MS - University of Texas at El Paso\ndescription: |\n  My partner and I adopted winston when he was 2 years old. We don’t know much about what he was doing before we adopted him, but we know he was a stray dog found in Missouri. He is absolutely perfect, and by that I mean he is a complete anxious disaster but we love him more than anything. \nquote: “Winston is devastated when he discovers the world does not, in fact, revolve around him”\nimage: featured.jpeg\ncategories: dog - “shelter special” but probably cattle dog mix\nage: 6 \ntalent: Winston can jump almost 5 ft in the air \nhabit: Crying all the time \ntitle-block-categories: false\ntitle-block-banner: false\ntitle-block-style: none\npriority: 1\n---\n\n\n::: grid\n::: {#about-pet-text .g-col-12 .g-col-md-6}\n![](featured.jpeg)\n:::\n\n::: {.g-col-12 .g-col-md-6}\n::: {simple-info}\n# Meet {{< meta title >}}\n\n### Quote:\n\n> {{< meta quote >}}\n\n### Breed:\n\n\n{{< meta categories >}}\n\n\n\n### Bad Habit:\n\n\n{{< meta habit >}}\n\n\n\n### Special Talent:\n\n\n{{< meta talent >}}\n\n\n:::\n:::\n:::\n\n##### Submitted by: {{< meta human >}}\n\n## Bio\n\n\n{{< meta description >}}\n\n\n\n## Gallery\n\n\n::: {.cell}\n::: {.cell-output-display}\n```{=html}\n<div id=\"htmlwidget-212fe173aa286dd47754\" style=\"width:100%;height:100%;\" class=\"pixgallery html-widget \"></div>\n<script type=\"application/json\" data-for=\"htmlwidget-212fe173aa286dd47754\">{\"x\":{\"path\":[\"https://emmarshall.github.io/runza/img/apls-pets/Grace Hanzelin-1.jpeg\",\"https://emmarshall.github.io/runza/img/apls-pets/Grace Hanzelin-3.jpeg\",\"https://emmarshall.github.io/runza/img/apls-pets/Grace Hanzelin-4.jpeg\",\"https://emmarshall.github.io/runza/img/apls-pets/Grace Hanzelin-5.jpeg\"],\"caption\":[],\"dim\":\"150px\",\"gap\":\"6px\",\"shuffle\":true,\"type\":\"grid\"},\"evals\":[],\"jsHooks\":[]}</script>\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {
+      "include-in-header": [
+        "<script src=\"../../../site_libs/htmlwidgets-1.6.2/htmlwidgets.js\"></script>\n<link href=\"../../../site_libs/simplelightbox-0/css/simplelightbox.css\" rel=\"stylesheet\" />\n<script src=\"../../../site_libs/simplelightbox-0/js/simplelightbox.js\"></script>\n<link href=\"../../../site_libs/pixgallery-0/css/pixgallery.css\" rel=\"stylesheet\" />\n<script src=\"../../../site_libs/pixgallery-binding-0.0.2.3000/pixgallery.js\"></script>\n"
+      ]
+    },
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

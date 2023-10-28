@@ -25,7 +25,6 @@ title-block-style: none
 
 ::: {.g-col-12 .g-col-md-6}
 ::: {simple-info}
-# Meet {{< meta title >}}
 
 ### Quote: 
 
@@ -57,14 +56,5 @@ title-block-style: none
 
 
 ::: column-screen
-```{r}
-#| label: gallery of pets
-#| echo: false
 
-library(pixture)
-paths <- c(
-  "https://emmarshall.github.io/runza/img/apls-pets/Alexandra Zidenberg-1.jpg") 
-pixgallery(paths, dim="50px", shuffle=TRUE)
-
-```
 :::
